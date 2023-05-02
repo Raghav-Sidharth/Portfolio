@@ -1,9 +1,15 @@
+import Hero from './Hero'
+import NavBar from './NavBar'
+import About from './About'
+import Portfolio from './Portfolio'
 function App() {
   return (
-    <div>
-      <h1>App</h1>
-      <p>React development has begun!</p>
-    </div>
+    <>
+      <NavBar />
+      <Hero />
+      <About />
+      <Portfolio />
+    </>
   )
 }
 

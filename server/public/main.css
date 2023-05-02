@@ -3,3 +3,19 @@ body {
   color: #0a1520;
   font-family: 'Poppins', sans-serif;
 }
+
+.Logo-Hero {
+  max-width: 250px;
+  max-height: 250px;
+  padding-left: 25px;
+}
+.Hero-Container {
+  display: flex;
+  justify-content: center;
+}
+.Hero-Container-Content {
+  display: flex;
+  /* flex-flow: column wrap; */
+  justify-content: center; 
+  
+}

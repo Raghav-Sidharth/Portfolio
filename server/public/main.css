@@ -13,9 +13,8 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .Hero-Container-Content {
   display: flex;
-  /* flex-flow: column wrap; */
-  justify-content: center; 
-  
+  justify-content: center;   
 }

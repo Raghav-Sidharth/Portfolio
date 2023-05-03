@@ -1,10 +1,11 @@
 {
-  "name": "boilerplate-react",
+  "name": "raghav-portfolio",
   "version": "0.2.0",
   "description": "React!",
-  "repository": "https://github.com/dev-academy-challenges/react-boilerplate.git",
+  "repository": "https://github.com/Raghav-Sidharth/Portfolio.git",
   "main": "server/index.js",
   "scripts": {
+    "build": "npm run webpack -- --mode production",
     "start": "run-p webpack server",
     "dev": "run-p client:watch server:watch",
     "webpack": "webpack --config client/webpack.config.js",
@@ -33,7 +34,7 @@
       "bundle.js"
     ]
   },
-  "author": "Dev Academy Aotearoa",
+  "author": "Raghav Sidharth",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.15.6",
@@ -47,6 +48,7 @@
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.23",
     "@types/react-dom": "^18.0.7",
+    "@types/react-scroll": "^1.8.7",
     "babel-loader": "^8.2.2",
     "eslint": "^8.10.0",
     "eslint-plugin-import": "^2.25.4",
@@ -57,6 +59,7 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^5.0.0",
     "jest": "^29.2.2",
     "jest-environment-jsdom": "^29.3.1",
     "nodemon": "^2.0.15",
@@ -71,7 +74,12 @@
     "webpack-cli": "^4.9.2"
   },
   "dependencies": {
+    "@redux-devtools/extension": "^3.2.5",
     "express": "^4.17.2",
+    "react-redux": "^8.0.5",
+    "react-scroll": "^1.8.9",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
     "ts-node": "^10.9.1"
   },
   "prettier": {
